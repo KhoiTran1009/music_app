@@ -1,0 +1,42 @@
+.sidebar {
+  width: 220px;
+  background: #000;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1db954;
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  display: block;
+  padding: 10px 12px;
+  color: #b3b3b3;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.divider {
+  border-color: #282828;
+  margin: 12px 0;
+}
+.playlist-label {
+  font-size: 12px;
+  color: #b3b3b3;
+  padding: 4px 12px;
+}
